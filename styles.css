@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  background-color: beige;
+}
+
+.container {
+  margin-top: 2.5em;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.table .table_2 th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left; 
+}
+
+.col  {
+  margin-top: 1em;
+}
+
+.col .Images img {
+  margin-top: 2.5em;
+}
+
+/* For small screens */
+@media screen and (max-width: 576px) {
+    .profile {
+      text-align: center;
+    }
+
+    .profile-full-name h2 {
+      margin-left: auto;
+      margin-top: 3em;
+    }
+
+    .city-image img {
+      width: 100%; 
+      margin-bottom: 20px;
+    }
+
+    .city-name h2 {
+      text-align: center;
+    }
+
+    .city-text {
+      text-align: center;
+    }
+  
+    .col {
+      flex-basis: calc(50% - 10px);
+      margin-right: 10px;
+      margin-bottom: 9px;
+    }
+
+    .col:last-child {
+      margin-right: 0;
+    }
+
+    .col .Images img {
+      height: 8em;
+      width: auto;
+      margin-top: .5em;
+    }
+  }
+  
+  /* For medium screens */
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .profile {
+      text-align: center;
+    }
+
+    .profile-full-name h2 {
+      margin-left: auto;
+      margin-top: 3em;
+    }
+
+    .row {
+      flex-wrap: wrap;
+    }
+  
+    .col {
+      flex-basis: calc(50% - 10px);
+      margin-right: 10px;
+      margin-bottom: 9px;
+    }
+
+    .col:last-child {
+      margin-right: 0;
+    }
+  }
+  
+  /* For large screens */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .profile {
+      text-align: center;
+    }
+
+    .profile-full-name h2 {
+      margin-left: auto;
+      margin-top: 3em;
+    }
+  }
+  
+  /* For extra-large screens */
+  @media screen and (min-width: 1201px) {
+    .profile {
+      text-align: center;
+    }
+
+    .profile-full-name h2 {
+      margin-left: auto;
+      margin-top: 3em;
+    }
+}
