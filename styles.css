@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-  margin-top: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .table {
@@ -53,12 +54,6 @@ body {
   
     .col {
       flex-basis: calc(50% - 10px);
-      margin-right: 10px;
-      margin-bottom: 9px;
-    }
-
-    .col:last-child {
-      margin-right: 0;
     }
 
     .col .Images img {
@@ -78,19 +73,9 @@ body {
       margin-left: auto;
       margin-top: 3em;
     }
-
-    .row {
-      flex-wrap: wrap;
-    }
   
     .col {
       flex-basis: calc(50% - 10px);
-      margin-right: 10px;
-      margin-bottom: 9px;
-    }
-
-    .col:last-child {
-      margin-right: 0;
     }
   }
   
